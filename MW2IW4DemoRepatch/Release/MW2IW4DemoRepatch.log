@@ -1,0 +1,16 @@
+﻿  dllmain.cpp
+D:\Source Codes\Visual Studio 2015\Projects\MW2IW4DemoRepatch\MW2IW4DemoRepatch\MapBytes.h(13,52): warning C4309:  'initializing': truncation of constant value
+D:\Source Codes\Visual Studio 2015\Projects\MW2IW4DemoRepatch\MW2IW4DemoRepatch\MapBytes.h(13,76): warning C4309:  'initializing': truncation of constant value
+D:\Source Codes\Visual Studio 2015\Projects\MW2IW4DemoRepatch\MW2IW4DemoRepatch\MapBytes.h(13,82): warning C4309:  'initializing': truncation of constant value
+D:\Source Codes\Visual Studio 2015\Projects\MW2IW4DemoRepatch\MW2IW4DemoRepatch\MapBytes.h(13,88): warning C4309:  'initializing': truncation of constant value
+D:\Source Codes\Visual Studio 2015\Projects\MW2IW4DemoRepatch\MW2IW4DemoRepatch\MapBytes.h(13,100): warning C4309:  'initializing': truncation of constant value
+D:\Source Codes\Visual Studio 2015\Projects\MW2IW4DemoRepatch\MW2IW4DemoRepatch\MapBytes.h(13,7330): warning C4309:  'initializing': truncation of constant value
+D:\Source Codes\Visual Studio 2015\Projects\MW2IW4DemoRepatch\MW2IW4DemoRepatch\Functions.h(3,17): warning C4949:  pragmas 'managed' and 'unmanaged' are meaningful only when compiled with '/clr[:option]'
+  Generating code
+  0 of 25 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+detours.lib(detours.obj) : warning LNK4099: PDB 'detours.pdb' was not found with 'detours.lib(detours.obj)' or at 'D:\Source Codes\Visual Studio 2015\Projects\MW2IW4DemoRepatch\Release\detours.pdb'; linking object as if no debug info
+detours.lib(disasm.obj) : warning LNK4099: PDB 'detours.pdb' was not found with 'detours.lib(disasm.obj)' or at 'D:\Source Codes\Visual Studio 2015\Projects\MW2IW4DemoRepatch\Release\detours.pdb'; linking object as if no debug info
+  MW2IW4DemoRepatch.vcxproj -> D:\Source Codes\Visual Studio 2015\Projects\MW2IW4DemoRepatch\Release\MW2IW4DemoRepatch.dll

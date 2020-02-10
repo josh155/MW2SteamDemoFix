@@ -1,0 +1,8 @@
+﻿  dllmain.cpp
+D:\Source Codes\Visual Studio 2015\Projects\MW2IW4DemoRepatch\MW2IW4DemoRepatch\dllmain.cpp(276,9): warning C4477:  'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'msg_t'
+D:\Source Codes\Visual Studio 2015\Projects\MW2IW4DemoRepatch\MW2IW4DemoRepatch\dllmain.cpp(328,1): warning C4005:  'NOP': macro redefinition
+D:\Source Codes\Visual Studio 2015\Projects\MW2IW4DemoRepatch\MW2IW4DemoRepatch\Hooks.h(5): message :  see previous definition of 'NOP'
+D:\Source Codes\Visual Studio 2015\Projects\MW2IW4DemoRepatch\MW2IW4DemoRepatch\dllmain.cpp(478,39): warning C4305:  'initializing': truncation from 'int' to 'WORD'
+D:\Source Codes\Visual Studio 2015\Projects\MW2IW4DemoRepatch\MW2IW4DemoRepatch\dllmain.cpp(478,31): warning C4309:  'initializing': truncation of constant value
+D:\Source Codes\Visual Studio 2015\Projects\MW2IW4DemoRepatch\MW2IW4DemoRepatch\dllmain.cpp(508,17): warning C4949:  pragmas 'managed' and 'unmanaged' are meaningful only when compiled with '/clr[:option]'
+  MW2IW4DemoRepatch.vcxproj -> D:\Source Codes\Visual Studio 2015\Projects\MW2IW4DemoRepatch\Debug\MW2IW4DemoRepatch.dll
