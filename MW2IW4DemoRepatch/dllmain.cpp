@@ -100,7 +100,8 @@ void WriteBaseline() {
 
 }
 void __declspec(naked) BaselineToFileFunc() {
-
+	*(INT*)0x6360B20 = 0;//Disable string table on start of demo, if it's the original table then it doesn't recognise the map in the demo
+	*(INT*)0xAF5FA4 = 0;//Set Demo size back to 0. This is so the config string can reset
 	WriteBaseline();
 
 	__asm jmp baselineToFileRet
@@ -276,7 +277,10 @@ LRESULT CALLBACK mDispatchMessage(MSG* lpmsg)
 				configstringvalue = GetConfigString();//Save original string table before we change it
 				*(INT*)0x6360B20 = 0;//Disable string table on start of demo, if it's the original table then it doesn't recognise the map in the demo
 				*(INT*)0xAF5FA4 = 0;//Set Demo size back to 0. This is so the config string can reset
-				Cbuf_AddText(0, "stoprecord; wait 20; record");//
+				if (GetConfigString() == 0)//We only want to record when the config string is = to 0
+				{
+					Cbuf_AddText(0, "stoprecord; wait 10; record");//
+				}
 			}
 		}
 		break;
